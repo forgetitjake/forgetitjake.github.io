@@ -1,0 +1,29 @@
+html, body {
+    height: 70%;
+    font-family: "Crimson_Pro";
+}
+
+.show-off {
+    box-shadow: 0 0 50px 0 rgba(0,0,0,.1) !important;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .2s ease;
+    background-color: #00000038;
+  }
+  
+  .card:hover .overlay {
+    opacity: 0.3;
+  }
+
+  .title {
+
+  }
