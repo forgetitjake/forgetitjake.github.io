@@ -1,12 +1,28 @@
 html, body {
     height: 70%;
     font-family: "Crimson_Pro";
+    background-color: #fafafa;
+}
+
+
+
+@media (max-width: 1000px){
+  .show-off {
+    box-shadow: 0 0 50px 0 rgba(0,0,0,.1) !important;
+    width: 20rem !important;
+    align-items: center;
+    margin: auto !important;
+    margin-top:10px !important;
+    
+}
+
 }
 
 .show-off {
     box-shadow: 0 0 50px 0 rgba(0,0,0,.1) !important;
+    width: 50%;
 }
-
+  
 .overlay {
     position: absolute;
     top: 0;
@@ -27,3 +43,44 @@ html, body {
   .title {
 
   }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+.past-projects {
+  margin-top:16rem;
+}
+
+.project-banner-img {
+  box-shadow: 0 0 50px 0 rgba(0,0,0,.1) !important;
+  width: 50%;
+}
+
+.parable {
+  font-size: large;
+}
+
+
+
+body::-webkit-scrollbar-track
+{
+	background-color:#fafafa;
+}
+
+body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #fafafa;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
