@@ -9,12 +9,16 @@ html, body {
 @media (max-width: 1000px){
   .show-off {
     box-shadow: 0 0 50px 0 rgba(0,0,0,.1) !important;
-    width: 20rem !important;
+    width: 17rem !important;
     align-items: center;
     margin: auto !important;
     margin-top:10px !important;
     
 }
+.past-projects {
+  margin-top:10rem;
+}
+
 
 }
 
